@@ -1,0 +1,6 @@
+#currentForecast {
+  display: block;
+}
+#futureForecast {
+  display: none;
+}
