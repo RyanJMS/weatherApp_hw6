@@ -20,7 +20,7 @@
   </head>
   <body>
     <div id="header" class="text-center bg-dark text-light">
-      <h1>Weather Dashboard</h1>
+      <h1 class="p-3">Weather Dashboard</h1>
     </div>
     <div class="container">
       <div class="row">
@@ -37,21 +37,76 @@
           >
             <i class="fas fa-times-circle"></i>
           </button>
+          <div class="row">
+            <div id="searchHistory" class="col-lg-4">
+              <h2>Search History</h2>
+              <ul class="list-group list-group-flush" id="cityList"></ul>
+            </div>
+          </div>
         </div>
         <div id="currentForecast" class="col-lg-8">
           <h2>Current Forecast:</h2>
-        </div>
-        <div id="futureForecast" class="col-lg-8">
-          <h2>Future Forecast:</h2>
+          <h2 id="cityName"></h2>
+          <div class="currentForecast"></div>
         </div>
       </div>
       <div class="row">
-        <div id="searchHistory" class="col-lg-4">
-          <ul class="recentSearch"></ul>
+        <div id="futureForecast" class="col-lg-12">
+          <h2 class="text-center">5 Day Forecast</h2>
+        </div>
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title" id="dayOne"></h3>
+              <img id="dayOneImg" />
+              <p id="tempOne"></p>
+              <p id="humidityOne"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title" id="dayTwo"></h3>
+              <img id="dayTwoImg" />
+              <p id="tempTwo"></p>
+              <p id="humidityTwo"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title" id="dayThree"></h3>
+              <img id="dayThreeImg" />
+              <p id="tempThree"></p>
+              <p id="humidityThree"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title" id="dayFour"></h3>
+              <img id="dayFourImg" />
+              <p id="tempFour"></p>
+              <p id="humidityFour"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title" id="dayFive"></h3>
+              <img id="dayFiveImg" />
+              <p id="tempFive"></p>
+              <p id="humidityFive"></p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
     <script src="lib/script.js"></script>
   </body>
 </html>

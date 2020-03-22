@@ -1,6 +1,13 @@
-#currentForecast {
-  display: block;
+.bg {
+  background-color: white;
 }
-#futureForecast {
-  display: none;
+
+.lowUV {
+  background-color: yellow;
+}
+.midUV {
+  background-color: orange;
+}
+.highUV {
+  background-color: rgb(255, 35, 35);
 }
