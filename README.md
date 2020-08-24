@@ -28,6 +28,8 @@ The search history is saved, and cleared either when the page first loads, reloa
 
 ## Installation
 
+Visit the live site via Github Pages -> https://ryanjms.github.io/weatherApp_hw6/
+or
 Clone the repository to your local drive, and run npm install. Then npm start, and you're good to go!
 
 ## Usage
