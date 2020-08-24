@@ -44,6 +44,8 @@ MIT
 
 RyanJMS
 
+https://www.linkedin.com/in/ryanjmschock/
 <img src="https://avatars0.githubusercontent.com/u/59546790?v=4">
+
 
 
